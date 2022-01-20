@@ -1,0 +1,34 @@
+@import './dummy';
+@import './reset';
+@import './footer';
+@import './form';
+@import './header';
+@import './instructions';
+@import './letters';
+@import './loading';
+// COMMON STYLES
+
+.title {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1;
+    text-align: center;
+  }
+  
+  // PAGE
+  
+  .page {
+    padding: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../images/blackboard.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  // MAIN
+  
+  .main {
+    display: flex;
+    justify-content: center;
+  }
